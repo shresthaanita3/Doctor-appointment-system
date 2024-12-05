@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+
+
+/* Centering the form */
+.check {
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+caption {
+    color: #007bff;
+    line-height: 2.5;
+}
+/* Form container styling */
+.background {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styling */
+form {
+    width: 350px;
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+.background h4{
+    color: #0056b3;
+text-align: center;
+font-size: 25px;
+line-height: 1.5;
+margin-bottom: 10px;
+}
+/* Input field styling */
+input[type="text"],
+input[type="email"],input[type="number"],input[type="address"],input[type="date"],input[type="time"]{
+    width: calc(100% - 20px); /* Subtracting padding from width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

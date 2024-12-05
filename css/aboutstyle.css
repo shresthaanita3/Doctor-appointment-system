@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #1f46f7;
+  }
+  .welcome h1 {
+    font-size: 45px;
+    color: #e4e0ee;
+    text-wrap: wrap;
+    line-height: 2;
+    text-align: center;
+  }
+  .welcome p {
+    text-align: center;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 15px;
+    line-height: 160%;
+  }
+  
+  .point ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    list-style: none;
+  }
+  
+  .point h2 {
+    padding-top: 15px;
+    color: #e4e0ee;
+    line-height: 2;
+    margin-left: 35px;
+    text-align: center;
+    font-size: 32px;
+    text-decoration: underline;
+  }
+  .point ul li {
+    background-color: #1f46f7;
+    padding: 15px;
+    margin: 2%;
+    border-radius: 20px;
+    font-size: 20px;
+    color: #c7c5cd;
+    letter-spacing: 1px;
+    align-items: center;
+    justify-content: center;
+  }
+  .point ul li span {
+    color: #171715;
+    margin: 0;
+    font-weight: bold;
+   
+  }
+  .second {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .second .mission {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5;
+  }
+  .second .mission p {
+    color: #171715;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  .second .mission h1 {
+    color: #e4e0ee;
+    font-size: 45px;
+  }
+  .join {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+  .join span {
+    color: #171715;
+    font-weight: bold;
+  }
+  .join h1 {
+    padding:15px ;
+    color: #171715 !important;
+  }
+  .join p {
+    font-size: 20px;
+    line-height: 2;
+    row-gap: 20px;
+  }
+  

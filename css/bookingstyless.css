@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Form container styling */
+
+.booking {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+ 
+}
+form {
+  width: 100%;
+  justify-content: center;
+}
+caption {
+  color: #171715;
+  line-height: 2.5;
+}
+table {
+  align-self: center;
+}
+
+/* Label styling */
+.background h4 {
+  color: #0056b3;
+  text-align: center;
+  font-size: 25px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+td{
+    width: 100%;
+    
+}
+select {
+  width: 250px;
+  padding: 8px; /* Adjust padding as needed */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px; 
+}
+

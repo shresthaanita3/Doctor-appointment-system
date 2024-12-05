@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    background-color: #2a6fbc;
+    padding: 20px;
+}
+.navbar_container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+}
+.model{
+    border: none;
+    position: fixed;
+    left: 50%;
+   top: 25%;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 10px black;
+}
+.model form{
+    margin: 20px;
+}
+.model form label{
+    line-height: 1.5;
+}
+input[type="time"],input[type="date"],input[type="email"]{
+    width: 100%;
+    height: 30px;
+    line-height: 2;
+    border-radius: 5px;
+}
+.navbar_container ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #fbfdff;
+}
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    gap: 30px;
+}
+.navbar_container button{
+    padding: 10px;
+    font-size: 15px;
+    background-color: 	yellowgreen;
+    color: whit e;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #2a6fbc;
+}
+
+.container{
+    margin: 0px;
+    padding: 0; 
+    text-align: center;
+}
+.container table{
+    border-collapse: collapse;
+    width: 80%;
+    
+    margin-left: auto;
+     margin-right: auto;
+
+}
+/* Styling for table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px; /* Add some space below the table */
+}
+tr:nth-child(even){
+    background-color: rgb(226, 226, 226);
+}
+table th,
+table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Styling for buttons */
+.button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+margin-left: 10%;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.model ::backdrop {
+    background-color: wheat;
+    opacity: 0.2;
+  }
+  h1{
+    color: #ddd;
+  }

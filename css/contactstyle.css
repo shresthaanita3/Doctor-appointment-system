@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.check{
+    display: grid;
+ grid-template-columns: 1fr 1fr;
+ margin: 5%;
+}
+.check .background{
+margin: 0 auto;
+line-height: 2;
+}
+input[type="text"],
+input[type="email"],input[type="number"],input[type="address"],input[type="date"]    {
+    width: calc(100% - 20px); /* Subtracting padding from width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.image p{
+    text-align: center;
+    line-height: 2;
+    font-size: 10vh;
+}
+/* Submit button styling */
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 auto;
+ margin-left: 10%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}

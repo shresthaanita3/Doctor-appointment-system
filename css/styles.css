@@ -1,0 +1,226 @@
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(139, 206, 40);
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+header h1 {
+  color: brown;
+  font-size: 24px;
+  margin-left: 20px;
+
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  margin-top: 5px;
+  margin-left: 30px;
+}
+
+header p {
+  font-style: italic;
+  color: blue;
+  margin-left: 20px;
+}
+
+header button {
+  color: white;
+  background-color: blue;
+  padding: 10px 20px;
+  border-radius: 3px;
+  border: none;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: rgb(41, 41, 216);
+}
+
+/* Main Sections */
+.main-sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 20px;
+}
+
+.paragraph1 h4 {
+  font-size: 3rem;
+  color: blue;
+  margin-top: 20px;
+}
+
+.para2 h1 {
+  font-size: 2rem;
+  color: blue;
+  margin-top: 20px;
+}
+
+.btn-style1 button {
+  padding: 15px 30px;
+  background-color: rgb(68, 204, 68);
+  font-size: 1rem;
+  color: wheat;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+/* Last Section */
+.last {
+  padding: 50px;
+  background-color: blueviolet;
+  border-radius: 20px;
+  color: aliceblue;
+}
+
+.last .paragraph h1 {
+  font-size: 3rem;
+  margin-top: 25px;
+}
+
+.last .photo {
+  margin: 0 auto;
+}
+
+.last .paragraph p {
+  margin-top: 20px;
+}
+
+.last .paragraph button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background-color: rgb(50, 238, 50);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  color: white;
+}
+
+/* Notice Section */
+.notice {
+  padding: 20px;
+  background-color: rgb(113, 50, 214);
+  color: whitesmoke;
+  font-size: larger;
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+}
+
+.notice button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: rgb(50, 238, 50);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: white;
+}
+
+.notice .photo {
+  position: absolute;
+  top: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Footer */
+footer {
+  background: #343434;
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  color: whitesmoke;
+}
+
+.footer-content {
+  width: 30%;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.footer-content p {
+  padding: 7px;
+}
+
+.footer-content ul {
+  text-align: center;
+  padding: 0;
+}
+
+.list li {
+  list-style-type: none;
+  padding: 5px;
+}
+
+.social-icons {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.social-icons i {
+  color: white;
+  font-size: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f18930;
+  text-decoration: underline;
+}
+
+.social-icons i:hover {
+  color: #f18930;
+}
+
+.bottom-bar {
+  background: #f18930;
+  text-align: center;
+  padding: 10px 0;
+  margin-top: 50px;
+}
+
+.bottom-bar p {
+  color: #343434;
+  margin: 0;
+  font-size: 16px;
+  padding: 7px;
+}

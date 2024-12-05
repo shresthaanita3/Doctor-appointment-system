@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* overflow-x: scroll; */
+}
+body {
+    font-family: Arial, sans-serif;
+}
+.last{
+    width: 85%;
+    float: right;
+}
+.last .sidebar header{
+    padding: 20px;
+    background-color: #9195F6; /* Coral */
+}
+.last .sidebar .details ul {
+    display: flex;
+    column-gap: 20px;
+    flex-wrap: wrap;
+}
+.last .sidebar .details ul li{
+    background-color: #6495ED; /* Cornflower Blue */
+    list-style: none;
+    padding: 7%;
+    margin: 0 auto;
+    margin-top: 2%;
+    border-radius: 10px;
+}
+.last .sidebar .details ul li .fa-solid{
+    color: #FFF8DC; /* Cornsilk */
+    font-size: 3rem;
+    margin: 0 auto;
+}
+.last .sidebar .details ul li p{
+    color: #FFF8DC; /* Cornsilk */
+    line-height: 2;
+}
+.last .sidebar .details ul li p span {
+    font-weight: bolder;
+}
+
+
+.contain {
+    padding: 20px;
+    width: 15%;
+    position: fixed;
+    background-color: #9370DB; /* MediumPurple */
+    height: 100%; 
+}
+.contain ul li {
+    list-style: none;
+    line-height: 2;
+    font-size: larger;
+    color: #FFF8DC; /* Cornsilk */
+    margin: 10px 20px;
+}
+a {
+    text-decoration: none;
+color: #FFF8DC;
+}
+.sidebar header,
+.sidebar header ul {
+    display: flex;
+    justify-content: space-between;
+    text-wrap: wrap;
+}
+.contain h1{
+    color: #021829; /* Steel Blue */
+    font-size: 5vh;
+    margin-bottom: 10%;
+    text-decoration: underline;
+}
+.sidebar header ul li {
+    list-style: none;
+}
+.sidebar header ul li:nth-child(1){
+    margin-top: 7px;
+    border-right: 1px solid #FFF8DC; /* Cornsilk */
+    padding-right: 10px;
+}
+
+.sidebar header ul li button {
+    padding: 7px;
+    background-color: #228B22; /* Forest Green */
+    border: none;
+    color: #FFF8DC; /* Cornsilk */
+    cursor: pointer;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+.sidebar header ul li button:hover{
+    background-color: #006400; /* Dark Green */
+}
+
+/* To add a gap between the buttons */
+.sidebar header ul {
+    gap: 20px;
+}

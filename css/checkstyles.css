@@ -1,0 +1,72 @@
+/* Style for check class */
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.check {
+    margin: 20px;
+  }
+  
+  /* Style for background class */
+  .background {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  /* Style for h4 inside background class */
+  .background h4 {
+    margin-bottom: 20px;
+  }
+  
+  /* Style for outertable class */
+  .outertable {
+    overflow-x: auto;
+  }
+  
+  /* Style for innertable class */
+  .innertable {
+    width: 100%;
+    overflow-y: auto;
+  }
+  
+  /* Style for table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style for th and td */
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style for th */
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for tr:nth-child(even) */
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style for tr:hover */
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  /* Style for img inside table */
+  table img {
+    display: block;
+    margin: 0 auto;
+  }
+  
+  /* Style for forms inside td */
+  td form {
+    display: inline;
+  }
+  

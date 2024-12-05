@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    display: flex;
+    padding: 0px 30px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    background-color: #2a7fba;
+    padding: 20px;
+}
+.navbar_container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+
+}
+.navbar_container ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 25px;
+}
+.navbar_container ul li:nth-child(2){
+    padding: 10px;
+    background-color:grey;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0;
+    gap: 30px;
+}
+.navbar_container button{
+    padding: 10px;
+    font-size: 15px;
+    background-color: 	greenyellow;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color:rgb(181, 245, 85);
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+.button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+/* Active state */
+.button:active {
+    background-color: #3e8e41;
+}
+
+.container{
+    margin: 0px;
+    padding: 0; 
+    text-align: center;
+}
+.container table{
+    border-collapse: collapse;
+    width: 80%;
+    
+    margin-left: auto;
+     margin-right: auto;
+
+}
+td,th{
+    border: 2px solid black;
+    text-align: center;
+    padding: 4px;
+}
+table {
+    overflow-x: hidden;
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Table header cells */
+th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    /* text-align: left; */
+}
+h1{
+    color: whitesmoke;
+}
+
+/* Table data cells */
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Alternating row colors */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Hover effect on rows */
+tr:hover {
+    /* cursor: pointer; */
+    background-color: #ddd;
+ 
+}

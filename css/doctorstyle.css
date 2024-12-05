@@ -1,0 +1,54 @@
+/* Style for the main container */
+.main {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap; /* Wrap items onto multiple lines if necessary */
+    justify-content: center; /* Center the items horizontally */
+}
+
+/* Style for each doctor's container */
+.first {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: calc(33.33% - 20px); /* Approximately 1/3 width with margins on both sides */
+    max-width: 300px; /* Maximum width for better responsiveness */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+    text-align: center; /* Center the content horizontally */
+    background-color: #f9f9f9; /* Background color for better contrast */
+    transition: transform 0.3s ease; /* Smooth transition on hover */
+}
+
+/* Hover effect */
+.first:hover {
+    transform: translateY(-5px); /* Move the container up slightly on hover */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1); /* Add a subtle shadow on hover */
+}
+
+/* Style for the doctor's image */
+.first img {
+    display: block;
+    margin: 0 auto 20px; /* Center the image horizontally with some spacing at the bottom */
+    width: 100px; /* Set a fixed width for the image */
+    height: 100px; /* Set a fixed height for the image */
+    border-radius: 50%; /* Make the image round */
+    object-fit: cover; /* Ensure the image covers the entire space without stretching */
+    
+}
+
+/* Style for the doctor's name */
+.first h4 {
+    margin: 0;
+    font-size: 18px;
+    color: #333;
+    text-align: left;
+}
+
+/* Style for other details */
+.first p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+}
