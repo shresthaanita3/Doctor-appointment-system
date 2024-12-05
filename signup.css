@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    
+}
+.container {
+    display: grid;
+   font-size: 18px;
+   display: grid;
+   justify-content: center;
+   padding-top: 50px;
+   
+}
+.container .form-box{
+    border: 2px solid #000;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    display: grid;
+    text-align: left;
+    width: 800px;
+    
+}
+.form-box h2{
+    font-size: 2em;
+    text-align: left; 
+}
+.column {
+    float: left;
+    width: 33.33%;
+  }
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+label,input{
+    display: block;
+    padding: 5px;
+}
+.gender-option label,input{
+    display: inline-block;
+}
+.details input{
+    width: 33%;
+}
+.button{
+    background-color: rgb(46, 97, 105);
+    font-size: 16px;
+    text-align: center;
+    display: flex;
+    padding: 5px 12px;
+    margin: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: rgb(0, 255, 76);
+}
